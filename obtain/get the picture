@@ -1,0 +1,6 @@
+List<XWPFPicture> pictures = run.getEmbeddedPictures();
+            if (pictures.size() > 0) {
+                XWPFPicture picture = pictures.get(0);
+                XWPFPictureData pictureData = picture.getPictureData();
+                System.out.println(Base64.encode(pictureData.getData()));
+            }
