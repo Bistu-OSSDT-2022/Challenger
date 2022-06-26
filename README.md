@@ -12,11 +12,11 @@
 
 开发人员
 --------
-*TabTab张子怡
-*TabTab王肄文
-*TabTab李明哲
-*TabTab李智秋
-*TabTab乔香
+TabTab张子怡
+TabTab王肄文
+TabTab李明哲
+TabTab李智秋
+TabTab乔香
 
 指导教师
 --------
