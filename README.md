@@ -27,3 +27,16 @@
 ---------
 挑战者队/Challenger
 
+项目文档
+---------
+### INSTALL 
+所有代码可在此下载 https://github.com/Bistu-OSSDT-2022/Challenger
+### FAQ
+关于本项目的纯文本格式的常见问题解答。
+
+### CREDITS
+贡献者列表 https://github.com/Bistu-OSSDT-2022/Challenger/graphs/contributors
+
+### HISTORY
+项目演变记录 https://github.com/Bistu-OSSDT-2022/Challenger/commits/main
+### LICENSE
