@@ -62,6 +62,8 @@ Everyone in the big data Era.
 项目演变记录[查看](https://github.com/Bistu-OSSDT-2022/Challenger/commits/main)
 ### LICENSE
 该项目使用[MIT](https://github.com/Bistu-OSSDT-2022/Challenger/blob/main/LICENSE)许可证
+### 配置
+
 
 
 ##我们的介绍到此结束啦(￣▽￣)Bye~Bye~🎈🎈🎈
