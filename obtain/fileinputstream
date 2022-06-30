@@ -1,0 +1,44 @@
+InputStream is = new FileInputStream("C:\\Users\\10386\\Desktop\\word-正确文档2.docx");
+  XWPFDocument doc = new XWPFDocument(is);
+  XWPFHeaderFooterPolicy headerFooterPolicy = doc.getHeaderFooterPolicy();
+    //获取页眉
+    String header = headerFooterPolicy.getDefaultHeader().getText();
+    System.out.println("***页眉 ***"+header);
+    //获取页脚
+    String footer = headerFooterPolicy.getDefaultFooter().getText();
+    System.out.println("***页脚 ***"+header);
+    CTDocument1 ctdoc =  doc.getDocument();
+    int top = ctdoc.getBody().getSectPr().getPgMar().getTop().intValue();
+    int bottom = ctdoc.getBody().getSectPr().getPgMar().getBottom().intValue();
+    int left = ctdoc.getBody().getSectPr().getPgMar().getLeft().intValue();
+    int right = ctdoc.getBody().getSectPr().getPgMar().getRight().intValue();
+     List<XWPFParagraph> paras = doc.getParagraphs(); //将得到包含段落列表
+    //获取标题
+    List<Map<String, String>> list = getParagraph(paras.get(0));
+    System.out.println("标题信息==="+list);
+      int row_count =0;
+        XWPFTable table = (XWPFTable) element;
+        List<XWPFTableRow> xwpfTableRows = table.getRows();
+        row_count = xwpfTableRows.size();
+        ArrayList cell_count=new ArrayList();
+        int row_index = 1;
+        for (XWPFTableRow xwpfTableRow : xwpfTableRows) {
+          List<XWPFTableCell> xwpfTableCells = xwpfTableRow.getTableCells();
+          cell_count.add(xwpfTableCells.size());
+          System.out.println("第"+row_index+"行");
+          int cell_index =1;
+          for (XWPFTableCell xwpfTableCell : xwpfTableCells) {
+            //单元格是否被合并，合并了几个
+            CTDecimalNumber  cellspan = xwpfTableCell.getCTTc().getTcPr().getGridSpan();
+            boolean gridspan = cellspan != null;
+            String gridspan_num = cellspan != null?cellspan.getVal().toString():"0";
+            List<XWPFParagraph> xwpfParagraphs = xwpfTableCell.getParagraphs();
+            XWPFParagraph paragraph = xwpfParagraphs.get(0);
+            System.out.println("第" +cell_index+"个单元格，合并标志："+gridspan+",合并个数:"+gridspan_num
+            +"文字："+getParagraph(paragraph));
+            cell_index++;
+          }
+          row_index++;
+        }
+        System.out.println("表格为：row_count==="+row_count+"行"+Collections.max(cell_count)+"列");
+    
