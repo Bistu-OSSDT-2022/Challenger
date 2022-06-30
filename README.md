@@ -50,17 +50,18 @@ Everyone in the big data Era.
 🌈项目文档
 --------------
 ### INSTALL 
-安装及代码下载 https://github.com/Bistu-OSSDT-2022/Challenger
+安装及代码[下载](https://github.com/Bistu-OSSDT-2022/Challenger)
 ### FAQ
-常见问题解答 https://github.com/Bistu-OSSDT-2022/Challenger/issues
+常见问题解答[查看](https://github.com/Bistu-OSSDT-2022/Challenger/issues)
 
 ### CREDITS
-贡献者列表 https://github.com/Bistu-OSSDT-2022/Challenger/graphs/contributors
+贡献者列表[在此处](https://github.com/Bistu-OSSDT-2022/Challenger/graphs/contributors)查看
 
 ### HISTORY
-项目演变记录 https://github.com/Bistu-OSSDT-2022/Challenger/commits/main
+项目演变记录[查看](https://github.com/Bistu-OSSDT-2022/Challenger/commits/main)
 ### LICENSE
-许可证条款文件 https://github.com/Bistu-OSSDT-2022/Challenger/blob/main/LICENSE
+该项目使用MIT许可证
+许可证条款文件可[在此](https://github.com/Bistu-OSSDT-2022/Challenger/blob/main/LICENSE)查看
 
 
 ##我们的介绍到此结束啦(￣▽￣)Bye~Bye~🎈🎈🎈
