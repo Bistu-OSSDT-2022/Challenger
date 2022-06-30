@@ -28,10 +28,8 @@
 
 🌈项目分工 づ╭～ヾ
 -------------------------
-项目文档：王肄文   proarn
+项目文档：王肄文   proarn          产品设计：张子怡   HeroCLOU
 
- 产品设计：张子怡   HeroCLOU
- 
   代码开发：李明哲   Richard080     乔香   yitai427
   
     PPT撰写： 李智秋   Carol024
