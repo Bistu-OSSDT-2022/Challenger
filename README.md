@@ -50,10 +50,11 @@ Everyone in the big data Era.
 🌈项目文档
 --------------
 ### INSTALL 
-安装及代码[下载](https://github.com/Bistu-OSSDT-2022/Challenger)
+1. 源代码[在此查看](https://github.com/Bistu-OSSDT-2022/Challenger)
+2. [安装](https://github.com/Bistu-OSSDT-2022/Challenger)
 ### FAQ
-常见问题解答[查看](https://github.com/Bistu-OSSDT-2022/Challenger/issues)
-
+1. 常见问题解答[查看](https://github.com/Bistu-OSSDT-2022/Challenger/issues)
+2. 在[Wiki](https://github.com/Bistu-OSSDT-2022/Challenger/wiki)了解更多信息
 ### CREDITS
 贡献者列表[在此处](https://github.com/Bistu-OSSDT-2022/Challenger/graphs/contributors)查看
 
