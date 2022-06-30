@@ -57,12 +57,11 @@ Everyone in the big data Era.
 2. 在[Wiki](https://github.com/Bistu-OSSDT-2022/Challenger/wiki)了解更多信息
 ### CREDITS
 贡献者列表[在此处](https://github.com/Bistu-OSSDT-2022/Challenger/graphs/contributors)查看
-
 ### HISTORY
 项目演变记录[查看](https://github.com/Bistu-OSSDT-2022/Challenger/commits/main)
 ### LICENSE
 该项目使用[MIT](https://github.com/Bistu-OSSDT-2022/Challenger/blob/main/LICENSE)许可证
-### 配置
+
 
 
 
